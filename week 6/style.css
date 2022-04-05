@@ -1,0 +1,106 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+}
+.menulist ul,li,a{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    color: black;
+}
+.menulist li a:hover{
+    font-size: 1.4rem;
+    color: blue;
+
+}
+#intro{
+    width: 95vw;
+    height:80vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+#intro video{
+    width: 100%;
+    height: inherit;
+}
+#intro h1{
+    position: absolute;
+    top: 5%;
+    left:8%;
+    font-size: 2.5rem;
+    color: brown;
+
+}
+#aboutUs{
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
+#image{
+    width: 400px;
+}
+#image img{
+    width: inherit;
+}
+#aboutUstxt{
+    text-align: center;
+    background-color: aqua;
+    width: 60%;
+    padding: 20px;
+}
+
+#contactBody{
+    position: relative;
+}
+
+#contactUs{
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+input{
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#textbox{
+    margin-right: 13px;
+}
+#emaillabel{
+    margin-right: 60px;
+}
+button{
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: rgb(12, 155, 136);
+   margin-left: 40%;
+}
+button:hover{
+    background-color: rgb(65, 216, 196);
+}
+#footer{
+    background-color: rgb(63, 190, 148);
+    border-radius: 20px;
+}
