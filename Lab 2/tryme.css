@@ -1,0 +1,38 @@
+#contactBody{
+    position: relative;
+}
+
+#contactUs{
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+input{
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#textbox{
+    margin-right: 13px;
+}
+#emaillabel{
+    margin-right: 60px;
+}
+button{
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: rgb(12, 155, 136);
+   margin-left: 40%;
+}
+button:hover{
+    background-color: rgb(65, 216, 196);
+}
+#footer{
+    background-color: rgb(63, 190, 148);
+    border-radius: 20px;
+}
